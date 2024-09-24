@@ -10,7 +10,7 @@ mail = driver.find_element('id', 'email')
 pas = driver.find_element('id', 'pass')
 login = driver.find_element('id', 'loginbutton')
 mail.send_keys('9754977606')
-pas.send_keys('rtx3090rx6900xt')
+pas.send_keys(<password>)
 login.click()
 
 WebDriverWait(driver,60).until(
